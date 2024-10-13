@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+  #cursor {
+    display: none;
+  }
+  #page1 {
+    nav {
+      height: 18vw;
+    }
+    nav ul {
+      top: 18vw;
+      left: 0;
+      right: 0;
+      font-size: 7vw;
+      background-color: #dadada;
+      position: absolute;
+      flex-direction: column;
+      text-align: center;
+      gap: 0;
+      height: 87vh;
+      overflow: hidden;
+      transition: all 1s ease-in-out;
+    }
+    nav ul li {
+      padding: 20px;
+    }
+    nav a {
+      color: #222;
+      font-weight: 400;
+    }
+    .ri-menu-2-line {
+      display: block;
+      cursor: pointer;
+    }
+    #center {
+      height: calc(100vh - 18vw);
+    }
+  }
+}
